@@ -33,9 +33,11 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="id1">
-<h1>凍結壁の考え方<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
+  <section id="top-231206">
+<span id="id1"></span><h1>凍結壁の考え方<a class="headerlink" href="#top-231206" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>tag=18b33c7f5c78</p>
+<p><strong>（NEW）実験の発想（その１）</strong> <a class="reference internal" href="#mohso-231206"><span class="std std-ref">実験の発想（その１）</span></a> <strong>（NEW）実験の発想（その１）</strong></p>
+<p><a class="reference internal" href="#index-231206"><span class="std std-ref">インデックス（索引）</span></a></p>
 <section id="id2">
 <h2>(1) 凍結壁<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <section id="id3">
@@ -56,8 +58,12 @@
 </section>
 <section id="id4">
 <h4>（その２）高熱抵抗型（遮熱、断熱型」）<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h4>
-<ol class="arabic simple">
-<li><p>（イメージとして）溶鉱炉（Smelter）で断熱材のレンガに炉内のスラグが固化してとビリ付いている凍結壁。</p></li>
+<ol class="arabic">
+<li><p>（イメージとして）溶鉱炉（Smelter）で断熱材のレンガに炉内のスラグが固化してとビリ付いている凍結壁。</p>
+<blockquote>
+<div><p>・・・・古代から（金属精錬や鉄器が発明された数千年前がら）ある考えで、古典的であり、貧者の発想でもある・・・</p>
+</div></blockquote>
+</li>
 <li><p>断熱材と固化溶融塩の複合材が容器金属の内面に貼り付いている、</p></li>
 <li><p>凍結壁（残熱剤との複合）の厚さは厚い（〜1cm、配管の場合）</p></li>
 <li><p>流れに対する耐性は、断熱材で保証する（機械的郷土は不要、ただし長期使用でも剥がれたりばらばらにならない安定性は要求される）</p></li>
@@ -106,11 +112,52 @@
 <li><p>フランジは手動のクレーンで釣り上げる音ができる</p></li>
 <li><p>大型の観測窓があり、そこから内部の流れの様子（金属スズを傾けた板の表面の上の流し落としている）</p></li>
 <li><p>バルブの制御（on/off）はガス圧による、</p></li>
-<li><p>流れの制御は、ガス流れフローメータ（一定流束でガスを流す調理機）を用いて、ドレンタンクに流すガスの時間あたりの量を設定している、</p></li>
-<li><p>流束を一定にするため、（計測値におとづき、何を見ているかは聞きそこなった）プッシャーのガス流束超速装置の制御はRaspberryPiを用いている。</p></li>
+<li><p>流れの制御は、ガス流れ・フローメータ（一定流量でガスを流す調速機）を用いて、ドレンタンクに流すガスの時間あたりの量を設定している、</p></li>
+<li><p>流束を一定にするため、（制御用の計測値として何を見ているかは聞きそこなった）プッシャーのガス流束超速装置の制御はRaspberryPiを用いている。</p></li>
 </ol>
-<p>oooooooooooo    oooooooooooooooo    end of document   ooooooooooooooo     oooooooooooooo</p>
 </section>
+</section>
+<section id="mohso-231206">
+<span id="id9"></span><h2>実験の発想（その１）<a class="headerlink" href="#mohso-231206" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ol class="arabic">
+<li><p>（隔壁を設ける）穴開きのかごを内側に設置し、かごと容器内壁の間に氷を生成させる</p>
+<blockquote>
+<div><p>（最初の実験では水を使うのでプラスチックでも可能）</p>
+</div></blockquote>
+</li>
+<li><p>（隔壁の目的）隔壁は、内壁のあるいは容器の機械的強度を保つためではなく、凍結部分の形状安定性、を保つため。したがって材料は実機ではカーボンで製作可能と考える。</p></li>
+<li><p>（設計計算の習熟）</p>
+<blockquote>
+<div><p>しっかり、温度分布を計測する。</p>
+</div></blockquote>
+</li>
+<li><p>（隔壁形状の最適化）（目的は、安価な形状とすること）</p>
+<blockquote>
+<div><p>穴の大きさなど。</p>
+</div></blockquote>
+</li>
+</ol>
+<a class="reference internal image-reference" href="_images/IMG231206_BC7659B32181-1M.jpeg"><img alt="_images/IMG231206_BC7659B32181-1M.jpeg" src="_images/IMG231206_BC7659B32181-1M.jpeg" style="width: 70%;" /></a>
+</section>
+<section id="id10">
+<h2>実験の発想（その２）<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ol class="arabic">
+<li><p>（目的）  凍結壁、ループ、ポンプ</p>
+<blockquote>
+<div><p><strong>インペラー（軸流ポンプ、押し出し形）に、 凍結壁の考えが使えないか？　ためしてみたい。</strong></p>
+</div></blockquote>
+</li>
+<li><p>縦の寸法をつめた縦型ループを製作し、基本、ポンプ駆動で一定流を流し、材料試験に供与する。</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/IMG231206_1718M.jpeg"><img alt="_images/IMG231206_1718M.jpeg" src="_images/IMG231206_1718M.jpeg" style="width: 60%;" /></a>
+</section>
+<section id="index-231206">
+<span id="id11"></span><h2>インデックス（索引）<a class="headerlink" href="#index-231206" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="#mohso-231206"><span class="std std-ref">実験の発想（その１）</span></a></p></li>
+</ul>
+<p><a class="reference internal" href="#top-231206"><span class="std std-ref">TOPにもどる</span></a></p>
+<p>oooooooooooo    oooooooooooooooo    end of document   ooooooooooooooo     oooooooooooooo</p>
 </section>
 </section>
 
@@ -144,6 +191,9 @@
 <li><a class="reference internal" href="#id8">融解した錫の循環ループ</a></li>
 </ul>
 </li>
+<li><a class="reference internal" href="#mohso-231206">実験の発想（その１）</a></li>
+<li><a class="reference internal" href="#id10">実験の発想（その２）</a></li>
+<li><a class="reference internal" href="#index-231206">インデックス（索引）</a></li>
 </ul>
 </li>
 </ul>
